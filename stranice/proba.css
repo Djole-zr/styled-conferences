@@ -1,0 +1,127 @@
+
+
+
+
+
+.main-section {
+    max-width: 960px;
+    margin: 15px auto 55px;
+    text-align: center;
+}
+
+.prvi-naslov {
+    font-size: 36px;
+   font-weight: 300;
+}
+
+.prvi-p {
+    width: 80%;
+    margin: 0 auto 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 44px;
+
+}
+
+.dugme {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 44px;
+}
+
+
+
+
+.dugme:hover {
+    color: #648880;
+    background-color: white;
+}
+
+
+.middle-section {
+    width: 100%;
+    background-color: white;
+    padding: 66px 0 44px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clanak {
+    width: 300px;
+}
+
+
+.clanak-link {
+    text-decoration: none;
+    color: #648880;
+    font-size: 21px
+}
+
+.clanak-link:hover {
+    color: #a9b2b9;
+}
+
+.slika-clanak {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+
+.mali-naslov {
+    color: #a9b2b9;
+    font-size: 14px;
+    margin: 0 0 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.veliki-naslov {
+    font-size: 21px;
+    margin: 0 0 22px;
+    font-weight: 300;
+}
+
+.tekst-clanak {
+    font-size: 16px;
+    margin: 0 0 22px;
+    font-weight: 300;
+    color: #888;
+}
+
+
+
+
+@media (max-width: 991.98px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .clanak {
+        
+        width: 60%;
+    }
+
+    .slika-clanak {
+        width: 100%;
+    }
+
+    
+}
+
+
+
