@@ -1,0 +1,78 @@
+.glavni {
+    display: flex;
+    gap: 30px;
+}
+
+.glavni h3 {
+    font-size: 24px;
+    line-height: 44px;
+    font-weight: 300;
+    margin: 0 0;
+}
+
+.glavni h5 {
+color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 22px;
+}
+
+.glavni p {
+    color: #888888;
+    font-size: 16px;
+    margin: 0 0 22px;
+}
+
+.glavni h4 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 0 22px;
+}
+
+#lista {
+    list-style: square;
+    color: #888888;
+    font-size: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 400;
+}
+
+input,
+textarea, 
+select {
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+}
+
+input::placeholder {
+    color: rgba(136, 136, 136, 0.74);
+}
+
+select {
+    width: 60px;
+}
+
+.register-btn {
+    border: none;
+    padding: 11px 30px;
+    background-color: #648880 ;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    align-self: flex-start;
+    line-height: 22px;
+}

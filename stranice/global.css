@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    list-style: none;
 }
 
 body {
@@ -16,6 +15,10 @@ body {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 0 44px;    
+}
+
+.navbar-nav {
+    list-style: none !important;
 }
 
 .container-fluid {
@@ -52,12 +55,22 @@ body {
 
 }
 
-.datum {
-    text-align: right;
+.navbar-toggler {
     
 }
 
+.datum {
+    text-align: right;
+    font-size: 21px;
+    line-height: 22px;
+    margin-bottom: 22px;   
+}
+
 .navbar-collapse {
+    
+}
+
+.navbar-nav {
     
 }
 
@@ -69,6 +82,7 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 14px;
+    
 }
 
 .nav-item a:hover {
@@ -143,6 +157,19 @@ body {
 
 /* ---------------------DOVDE JE first section---------------- */
 
+.sadrzajac {
+    width: 100%;
+    background-color: white;
+}
+
+.glavni {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 66px 0 44px;
+}
+
+/* ---------------------BELI SADRZAJ---------------- */
+
 footer {
     max-width: 960px;
     margin: 0 auto;
@@ -159,6 +186,7 @@ footer {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    list-style: none;
 }
 
 footer a {
