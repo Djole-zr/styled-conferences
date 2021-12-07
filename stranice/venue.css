@@ -6,6 +6,8 @@
 
 iframe {
     margin-left: auto;
+    width: 590px;
+    height: 264px;
 }
 
 h3 {
@@ -31,4 +33,36 @@ h3 {
 .levi-info a:active {
     color: #a9b2b9;
 }
+
+
+@media (max-width: 991.98px) {
+    .glavni {
+        display: flex;
+        flex-direction: column;
+        padding-left: 32px;
+    }
+
+    iframe {
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 650px) {
+    iframe {
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .glavni {
+        padding-left: 0px;
+    }
+
+    iframe {
+        width: 280px;
+    }
+}
+
 
