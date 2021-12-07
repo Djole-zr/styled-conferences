@@ -1,0 +1,91 @@
+.raspored-tabela {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 180px 1fr 1fr;
+    margin-bottom: 44px;
+}
+
+h3 {
+    padding: 22px 45px 0 0;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 44px;
+    text-align: right;
+}
+
+
+.sporedni {
+    grid-column: span 2;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 22px 0;
+    font-size: 16px;
+    color: rgb(169, 178, 185);
+}
+
+.date {
+    line-height: 44px;
+}
+
+.sadrzaj {
+    line-height: 22px;
+    border-top: 1px solid #dfe2e5;
+}
+
+.vreme {
+    color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: right;
+    padding: 22px 45px 22px 0;
+    margin: 0;
+}
+
+.speaker {
+    border-top: 1px solid #dfe2e5;
+    padding: 22px 0;
+}
+
+.alone {
+    grid-column: span 2;
+}
+
+.naslov-speaker {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.par-speaker {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    color: rgb(136, 136, 136);
+}
+
+
+@media (max-width: 991.98px) {
+    .raspored-tabela {
+        grid-template-columns: 180px 1fr;
+        padding-right: 20px;
+    }
+
+    .sporedni {
+        grid-column: span 1;
+    }
+
+    .druga-kolona {
+        grid-column: 2;
+        border-top: none;
+    }
+
+    .alone {
+        grid-column: span 1;
+    }
+
+
+}

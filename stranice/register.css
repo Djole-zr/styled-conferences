@@ -61,6 +61,7 @@ input::placeholder {
 
 select {
     width: 60px;
+    background-color: #fff;
 }
 
 .register-btn {
